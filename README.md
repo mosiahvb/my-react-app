@@ -2,7 +2,7 @@
 
 This project is to help me understand web apps, and how to develop web applications Using react along with JavaScript HTML,and CSS. I want to gain a better understanding of web development and the necessary tools to become a full stack developer.  
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+This application opens up on a homepage that presents a beautiful loaf of bread, and explains that the Web App is a cookbook, then indicates that you should push the button on the image to see a recipe for bread. This image then takes you to the recipe and subsequent interactions you can make with the program. I to run I'll enter my terminal access the file, then input npm run dev to start the server and the page opens on my browser.
 
 I wrote this software to be helpful to my wife when she is Cooking and especially baking. My wife loves to cook and bake and this is a tool that can keep her recipes in order and help her follow along as she cooks. 
 
@@ -12,7 +12,7 @@ I wrote this software to be helpful to my wife when she is Cooking and especiall
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+ I am using react to create segment or app on my react file, which are then linked together. The React uses a extension of react-router-dom To create multiple pages and link the pages togetherTo create multiple pages and link the pages together. The homepage contains a little information and a link to the recipe page which then contains a recipe and interactive checklist for ingredients. 
 
 # Development Environment
 
