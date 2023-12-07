@@ -2,13 +2,13 @@
 
 This project is to help me understand web apps, and how to develop web applications Using react along with JavaScript HTML,and CSS. I want to gain a better understanding of web development and the necessary tools to become a full stack developer.  
 
-This application opens up on a homepage that presents a beautiful loaf of bread, and explains that the Web App is a cookbook, then indicates that you should push the button on the image to see a recipe for bread. This image then takes you to the recipe and subsequent interactions you can make with the program. I to run I'll enter my terminal access the file, then input npm run dev to start the server and the page opens on my browser.
+This application opens up on a homepage that presents a beautiful loaf of bread, and explains that the Web App is a cookbook, then indicates that you should push the button on the image to see a recipe for bread. This image then takes you to the recipe and subsequent interactions you can make with the program. I to run I'll enter my terminal access the file, then input "npm start" to start the server and the page opens on my browser.
 
 I wrote this software to be helpful to my wife when she is Cooking and especially baking. My wife loves to cook and bake and this is a tool that can keep her recipes in order and help her follow along as she cooks. 
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Web App Demo Video](https://youtu.be/PB1LXISjHU0)
 
 # Web Pages
 
