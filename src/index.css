@@ -11,3 +11,171 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* The Body */
+.body-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  height: 100vh; 
+  overflow: hidden;
+  
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  height: auto; 
+  max-height: 100%; 
+  object-fit: contain; 
+  object-fit: cover; 
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.recipe-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: rgb(224, 211, 193);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe-button:hover {
+  background-color: #555;
+}
+
+/* The Header */
+header {
+  background-color: rgb(224, 211, 193);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+.header-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* The Footer*/
+footer {
+  background-color: rgb(224, 211, 193);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* The Recipes Body */
+.recipes-body-container {
+  display: flex;
+}
+
+.ingredients {
+  flex: 0 0 200px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  top: 0;
+}
+
+.instructions {
+  flex: 1; 
+  padding: 20px;
+}
+
+.ingredients h3,
+.instructions h3 {
+  color: #333;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.recipes-body-container {
+  display: flex;
+}
+
+.ingredients {
+  flex: 0 0 300px;
+  background-color: #f1f1f1;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  font-size: medium;
+}
+
+.instructions li {
+  flex: 1;
+  padding: 20px;
+  font-size: medium;
+  border: 1px solid #ccc; /* Add a border to separate list items */
+  border-radius: 5px; /* Add rounded corners to the list items */
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+
+.ingredients li {
+  flex: 1;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: medium;
+  border: 1px solid #ccc; /* Add a border to separate list items */
+  border-radius: 5px; /* Add rounded corners to the list items */
+}
+
+.ingredients input {
+  margin-right: 10px;
+}
+
+.ingredients ul,
+.instructions ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+

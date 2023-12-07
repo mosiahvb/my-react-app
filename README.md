@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is to help me understand web apps, and how to develop web applications Using react along with JavaScript HTML,and CSS. I want to gain a better understanding of web development and the necessary tools to become a full stack developer.  
 
-## Available Scripts
+{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
 
-In the project directory, you can run:
+I wrote this software to be helpful to my wife when she is Cooking and especially baking. My wife loves to cook and bake and this is a tool that can keep her recipes in order and help her follow along as she cooks. 
 
-### `npm start`
+{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Software Demo Video](http://youtube.link.goes.here)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Web Pages
 
-### `npm test`
+{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Development Environment
 
-### `npm run build`
+I used VScode along with React, I used a mixture of forums and tutorial videos to gain a visual idea of how the program should be structured, and written. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I used React, JavaScript, HTML, and CSS for the programming of this application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Useful Websites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [reactjs.org](https://legacy.reactjs.org/tutorial/tutorial.html)
+* [w3schools.com](https://www.w3schools.com/REACT/DEFAULT.ASP)
+* [developer.org](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started)
+* [YouTube](https://www.youtube.com/watch?v=TWz4TjSssbg&t=751s)
+* [YouTube](https://www.youtube.com/watch?v=QwarZBtFoFA)
+* [YouTube](https://www.youtube.com/watch?v=hn80mWvP-9g)
 
-### `npm run eject`
+# Future Work
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* I want to add a long list of recipes to convert my wife's cookbook into a Interactive digital version. 
+* I want to gain a better understanding of formatting for react. I feel that my work seems sloppy and a little bit all over the place. I want to clean it up and make it easier to read. 
+* I want to add a search bar for easy access of wanted recipes.

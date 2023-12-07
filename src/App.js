@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// The App
+// Imports to be used to present to the homepage and subsequent links
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RecipePage from './Components/RecipePage';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Body from './Components/Body';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Header /> {/* Accesses the header to be used in the homepage*/}
+        <Routes>
+          <Route path="/" element={<Body />} /> {/* Creates A link to the homepage */}
+          <Route path="/recipe/:id" element={<RecipePage />} /> {/* Creates a link for the Recipe page */}
+        </Routes>
+        <Footer /> {/* Accesses the footer to be used in the homepage*/}
+      </div>
+    </Router>
   );
 }
 
