@@ -6,7 +6,7 @@ This application opens up on a homepage that presents a beautiful loaf of bread,
 
 I wrote this software to be helpful to my wife when she is Cooking and especially baking. My wife loves to cook and bake and this is a tool that can keep her recipes in order and help her follow along as she cooks. 
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+Link to a 5 minute YouTube demonstration.
 
 [Web App Demo Video](https://youtu.be/PB1LXISjHU0)
 
